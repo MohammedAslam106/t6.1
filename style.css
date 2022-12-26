@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 100px 0px 10px 0px;
+}
+.box{
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    font-size: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.two-section{
+    display: flex;
+    flex-direction: row;
+}
+.across,.down{
+    padding-left:40px;
+    line-height: 20px;
+}
+p{
+    line-height: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
